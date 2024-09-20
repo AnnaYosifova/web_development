@@ -1,0 +1,63 @@
+/* 1. Общие стили для всех страниц */
+body {
+    background-color: rgb(248, 248, 248);
+    font-family: 'Source Code Pro', sans-serif;
+}
+
+/* Заголовки */
+h2 {
+    background-color: rgb(123, 104, 238);
+}
+
+/* 2. Стили для шапки сайта и приветствия */
+.site-title {
+    color: rgb(248, 248, 248);
+    background-color: rgb(27, 24, 31);
+}
+
+/* 3. Стили для меню */
+
+nav .nav-link {
+    background-color: #5a3cbe;
+}
+
+nav .nav-link:hover {
+    background-color: rgb(123, 104, 238);
+}
+
+/* 4. Стили для списка курсов на странице каталога */
+
+/* Описание курса*/
+.short-description {
+    color: rgb(120, 40, 170);
+}
+
+.fixed-size {
+    width: 420px;
+    height: 240px;
+}
+
+.card img {
+    display: block;
+    margin: 0 auto;
+    width: 420px;
+    height: 240px;
+    object-fit: cover;
+}
+
+/* 5. Стили для страницы "Товар каталога" */
+
+/* Подробное описание курса*/
+.detailed-description {
+    color: rgb(120, 40, 170);
+}
+
+/* Программа курса */
+.custom-list {
+    list-style-image: url("../media/marker.png"); /* Замена стандартных маркеров */
+}
+
+/* 6. Стили для подвала */
+.site-footer {
+    background-color: rgb(27, 24, 31);
+}
