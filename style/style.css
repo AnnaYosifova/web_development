@@ -1,0 +1,146 @@
+/* 1. Общие стили для всех страниц */
+body {
+    background-color: rgb(248, 248, 248);
+    font-family: 'Source Code Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    padding-bottom: 100px; /* Отступ снизу равный или больше высоты подвала */
+}
+
+/* Заголовки */
+h2 {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    background-color: rgb(123, 104, 238);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* 2. Стили для шапки сайта и приветствия */
+.site-title {
+    color: rgb(248, 248, 248);
+    background-color: rgb(27, 24, 31);
+    padding: 10px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.welcome-message {
+    text-align: center;
+}
+
+/* 3. Стили для меню */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    padding: 5px 10px;
+    background-color: #5a3cbe;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(123, 104, 238);
+}
+
+/* 4. Стили для списка курсов на странице каталога */
+
+/* Описание курса*/
+.short-description {
+    color: rgb(120, 40, 170);
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.fixed-size {
+    width: 420px;
+    height: 240px;
+    object-fit: cover; /* Сохранить пропорции и заполнить область */
+    display: block; /* Сделать изображение блочным элементом */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.card-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Расстояние между карточками */
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    margin: 0px;
+    text-align: center;
+}
+
+.card img {
+    display: block; /* Текст будет отображаться под изображением */
+    margin: 0 auto; /* Центрирование изображения внутри карточки */
+    width: 420px;
+    height: 240px;
+    object-fit: cover; /* Обрезка изображения, чтобы оно сохраняло пропорции и заполняло контейнер */
+}
+
+/* 5. Стили для страницы "Товар каталога" */
+
+/* Подробное описание курса*/
+.detailed-description {
+    color: rgb(120, 40, 170);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+/* Программа курса */
+.custom-list {
+    list-style-image: url("../media/marker.png");
+}
+
+.custom-list li {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+}
+
+/* 6. Стили для подвала */
+.site-footer {
+    background-color: rgb(27, 24, 31);
+    color: white;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
