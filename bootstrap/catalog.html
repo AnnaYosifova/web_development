@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Подключение Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style/style.css">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Каталог курсов по ИИ</title>
+</head>
+
+<body class="m-0 p-0">
+    <!-- Шапка сайта -->
+    <header class="text-center site-header">
+        <h1 class="site-title p-2 fs-1 fw-bold">Turing AI Lab</h1>
+        <hr>
+        <nav>
+            <ul class="nav justify-content-left">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link p-2 fs-6 fw-bold text-white rounded-3">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a href="catalog.html" class="nav-link p-2 fs-6 fw-bold text-white rounded-3">Каталог</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <div class="container">
+        <h2 class="text-center my-4 p-2 fs-5 rounded-3">Каталог курсов</h2>
+
+        <p class="text-center welcome-message">Добро пожаловать в каталог курсов Turing AI Lab! Выберите направление для изучения:</p>
+
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <a href="ml.html" class="card-link">
+                        <img src="media/ml.jpg" class="card-img-top img-fluid" alt="Машинное обучение">
+                        <div class="card-body">
+                            <h5 class="text-center fs-6 fst-italic short-description">Машинное обучение (ML)</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <a href="nlp.html" class="card-link">
+                        <img src="media/nlp.png" class="card-img-top img-fluid" alt="Обработка естественного языка">
+                        <div class="card-body">
+                            <h5 class="text-center fs-6 fst-italic short-description">Обработка естественного языка (NLP)</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <a href="cv.html" class="card-link">
+                        <img src="media/cv.jpg" class="card-img-top img-fluid" alt="Компьютерное зрение">
+                        <div class="card-body">
+                            <h5 class="text-center fs-6 fst-italic short-description">Компьютерное зрение (CV)</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="pt-5">
+
+    <footer class="site-footer text-white text-center fixed-bottom p-2">
+        <p>&copy; Turing AI Lab. Все права защищены.</p>
+    </footer>
+
+</body>
+</html>
